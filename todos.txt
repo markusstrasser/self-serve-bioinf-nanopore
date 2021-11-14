@@ -1,0 +1,11 @@
+
+#Async Events
+*feed into store -> update components on new JSON data
+*rerun reducers
+
+
+#viewOnly Mode
+
+#IfElse Logic component
+
+#add more functions for FuncDict

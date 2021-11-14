@@ -1,0 +1,64 @@
+{
+  "name": "selfserve-data-analysis",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@nivo/bar": "^0.55.0",
+    "@nivo/scatterplot": "^0.57.1",
+    "babel-preset-env": "^1.7.0",
+    "core-js": "^2.6.5",
+    "dataframe-js": "^1.4.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.2",
+    "epi2me-ui-checkmark": "^2019.5.30-2453041",
+    "epi2me-ui-headline": "0.0.4",
+    "folktale": "^2.3.2",
+    "formik": "^1.5.2",
+    "immutability-helper": "^3.0.0",
+    "immutable-ext": "^1.1.5",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "ramda": "^0.26.1",
+    "ramda-adjunct": "^2.17.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-json-edit": "^0.3.1",
+    "react-scripts": "2.1.8",
+    "react-select": "^2.4.3",
+    "start-server-and-test": "^1.9.0",
+    "uuid": "^3.3.2",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "CI=true npm run test -- --coverage && http-serve coverage/lcov-report",
+    "eject": "react-scripts eject",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "e2e": "server-test 3000 cy:open",
+    "ci": "server-test 3000 cy:run",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "@testing-library/react": "^8.0.1",
+    "cypress": "^3.2.0",
+    "json-loader": "^0.5.7"
+  }
+}
